@@ -8,15 +8,10 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-        <h2>Painel do Sistema</h2>
-        <hr>
-        <h4>Mpt-bru</h4>
-        <nav>
-            <ul>
-                <li><a href="cadastrar.php">Cadastro de Clipt-brtes</a></li>
-                <li><a href="consultar.php">Consulta de Clipt-brtes</a></li>
-            </ul>
-        </nav>
+      <?php
+        echo "";
+      ?><br><br>
+        <a href="index.php">Voltar</a>
     </div>
 </body>
 </html>

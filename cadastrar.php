@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Well.Com</title>
 </head>
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-       <h3>Cadastro de Clientes</h3>
+       <h3>Cadastro de Clipt-brtes</h3>
        <hr>
         <form action="gravar.php" method="post">
             <label>Nome: </label>

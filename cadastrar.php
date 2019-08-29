@@ -8,7 +8,7 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-       <h3>Cadastro de Clipt-brtes</h3>
+       <h3>Cadastro de Clientes</h3>
        <hr>
         <form action="gravar.php" method="post">
             <label>Nome: </label>

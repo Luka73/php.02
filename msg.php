@@ -8,9 +8,10 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="container">
-      <?php
-        echo "";
-      ?><br><br>
+        <?php $msg = $_GET["msg"]; ?>
+        <div class="alert alert-primary" role="alert">
+          <?php echo $msg; ?>
+        </div>
         <a href="index.php">Voltar</a>
     </div>
 </body>

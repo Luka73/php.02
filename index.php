@@ -10,11 +10,11 @@
     <div class="container">
         <h2>Painel do Sistema</h2>
         <hr>
-        <h4>Mpt-bru</h4>
+        <h4>Menu</h4>
         <nav>
             <ul>
-                <li><a href="cadastrar.php">Cadastro de Clipt-brtes</a></li>
-                <li><a href="consultar.php">Consulta de Clipt-brtes</a></li>
+                <li><a href="cadastrar.php">Cadastro de Clientes</a></li>
+                <li><a href="consultar.php">Consulta de Clientes</a></li>
             </ul>
         </nav>
     </div>

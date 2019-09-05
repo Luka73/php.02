@@ -28,6 +28,33 @@
                 LIKE '{$nome}%'";
                 
                 $result = mysqli_query($con, $sql); 
+                
+                $totalRegistros = mysqli_num_rows($result);
+                
+                if($totalRegistros > 0){?>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Estado Civil</th>
+                            <th>Sexo</th>
+                        </tr>
+                        <?php
+                           while($row = mysqli_fetch_array($result)){
+                               echo "<tr>";
+                               echo "<td>{$row['nome']}</td>";
+                               echo "<td>{$row['email']}</td>";
+                               echo "<td>{$row['estadocivil']}</td>";
+                               echo "<td>{$row['sexo']}</td>";
+                               echo "</tr>";
+                           }     
+                        ?>
+                    </table>
+                <?php
+                }else{
+                    echo "Nenhum registro encontrado!";
+                }  
+                mysqli_close($con);
             }           
         ?>
     </div>
